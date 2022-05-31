@@ -20,7 +20,7 @@ export const modulesOptions = {
     validateEmail: "^[^\\s]+([.-]?\\w+)*@\\w+([.-]?\\w+)*(.\\w{2,3})+$",
     SignInNavText: "Sign In",
     SignUpNavText: "Sign Up",
-    SignInButtonText: "Loginn",
+    SignInButtonText: "Login",
     SignUpButtonText: "Sign Up"
   }
 }
