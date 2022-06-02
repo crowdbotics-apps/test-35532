@@ -24,19 +24,19 @@ class User(AbstractUser):
         max_length=255,
     )
     email = models.CharField(
-        max_length=256,
         null=True,
         blank=True,
+        max_length=256,
     )
     password = models.CharField(
-        max_length=256,
         null=True,
         blank=True,
+        max_length=256,
     )
     user_id = models.CharField(
-        max_length=256,
         null=True,
         blank=True,
+        max_length=256,
     )
 
     def get_absolute_url(self):
